@@ -39,6 +39,7 @@ install -d -m 755 ${RPM_BUILD_ROOT}/usr/share/passwordsafe/xml
 install -d -m 755 ${RPM_BUILD_ROOT}/usr/share/passwordsafe/help
 install -d -m 755 ${RPM_BUILD_ROOT}/usr/share/man/man1
 install -d -m 755 ${RPM_BUILD_ROOT}/usr/share/locale
+install -d -m 755 ${RPM_BUILD_ROOT}/usr/share/doc/passwordsafe
 install -d -m 755 ${RPM_BUILD_ROOT}/tmp
 install -m 755 -s ${RPM_BUILD_DIR}/%{name}-%{version}/src/ui/wxWidgets/GCCUnicodeRelease/pwsafe ${RPM_BUILD_ROOT}/usr/bin
 install -m 644 ${RPM_BUILD_DIR}/%{name}-%{version}/install/desktop/fedora-pwsafe.desktop ${RPM_BUILD_ROOT}/usr/share/applications
